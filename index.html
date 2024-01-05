@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="quiz-card" id="quiz-main">
+        <div class="top-row">
+            <h2 id="q-title">Master Quiz</h2>
+            <div class="timer-badge">⏳ <span id="time-left">15</span>s</div>
+        </div>
+
+        <div class="progress-outer">
+            <div id="progress-inner"></div>
+        </div>
+
+        <div class="q-content">
+            <h3 id="q-text">Ready to start?</h3>
+            <div id="options-box" class="options-list"></div>
+        </div>
+
+        <div class="quiz-footer">
+            <p>Q: <span id="q-count">0</span> / 10</p>
+            <button id="next-btn" disabled>Next</button>
+        </div>
+    </div>
+
+    <div class="quiz-card hidden result-card" id="result-box">
+        <div class="trophy-icon">🏆</div>
+        <h1>Quiz Over!</h1>
+        <p class="result-text">Your Final Score:</p>
+        <h2 id="score-val" class="score-display">0/10</h2>
+        <div class="high-score">High Score: <span id="best-score">0</span></div>
+        <button onclick="location.reload()" class="restart-btn">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+    <footer class="designer-copyright">
+        © Designed & Developed by <span>Uday Bodana</span>
+    </footer>
+
+</body>
+
+</html>
