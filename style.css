@@ -1,5 +1,5 @@
 :root {
-    --bg: #42abe8;
+    --bg: #f1f5f9;
     --w: #fff;
     --p: #42abe8;
     --t: #1e293b
@@ -136,12 +136,12 @@ body {
     margin-top: auto;
     padding: 20px;
     font-size: .8rem;
-    color: #e45922;
+    color: #94a3b8;
     font-weight: 500
 }
 
 .designer-copyright span {
-    color: #caf63b;
+    color: #3b82f6;
     font-weight: 700
 }
 
