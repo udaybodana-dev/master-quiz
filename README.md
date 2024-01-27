@@ -39,7 +39,7 @@ An interactive multiple-choice quiz application designed to evaluate development
 
 ## 📸 Preview
 
-<img src="preview/preview.png" width="100%" alt="Project Preview">
+<img src="preview/preview.png" width="100%" alt="Project Preview"><img src="preview/preview_1.png" width="100%" alt="Project Preview">
 
 ---
 
