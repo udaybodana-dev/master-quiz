@@ -2,6 +2,8 @@
 
 An interactive multiple-choice quiz application designed to evaluate development and programming skills. Seamlessly tracks quiz progress, computes final scores, and provides immediate visual feedback.
 
+`Documentation Update (2026): Added live deployment link -`  https://udaybodana-dev.github.io/master-quiz/
+
 ---
 
 ## ✨ Features
